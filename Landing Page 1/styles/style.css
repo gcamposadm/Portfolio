@@ -1,0 +1,122 @@
+body
+{
+    font-family: poppinsregular;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(34, 34, 34);
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title 
+{
+    line-height: 30px;
+}
+
+header h1
+{
+    font-weight: 200;
+}
+
+header a
+{
+    color: white;
+}
+
+header a:hover
+{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+.botaoinscricao
+{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.botaoinscricao:hover
+{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+header li
+{
+    display: inline-block;
+    margin: 20px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+main h2
+{
+    font-size: 56px;
+    line-height: 50px;
+    font-family: poppinsmedium;
+}
+
+main h2 span
+{
+    color: rgb(132, 14, 201);
+}
+
+main p
+{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+    text-align: justify;
+}
+
+main section img
+{
+    width: 580px;
+    padding-left: 12%;    
+    padding-top: 12%;
+}
+
+main form
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+main form input
+{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+main form [type="submit"]
+{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+
+main form [type="submit"]:hover
+{
+   cursor: pointer;
+}
